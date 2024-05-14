@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Kedr\\Kedr\\Kedr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|d:\\kedr\\kedr\\kedr\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|d:\\kedr\\kedr\\kedr\\mainmenu\\initializemainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|solutionrelative:mainmenu\\initializemainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|d:\\kedr\\kedr\\kedr\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|d:\\kedr\\kedr\\kedr\\mainwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|solutionrelative:mainwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|D:\\Kedr\\Kedr\\Kedr\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|d:\\kedr\\kedr\\kedr\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|d:\\kedr\\kedr\\kedr\\kedr.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E5232200-F730-404F-8D85-D945E3050394}|Kedr.csproj|solutionrelative:kedr.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +34,74 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.Designer.cs",
+              "DocumentMoniker": "D:\\Kedr\\Kedr\\Kedr\\MainWindow.Designer.cs",
+              "RelativeDocumentMoniker": "MainWindow.Designer.cs",
+              "ToolTip": "D:\\Kedr\\Kedr\\Kedr\\MainWindow.Designer.cs",
+              "RelativeToolTip": "MainWindow.Designer.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:10:12.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\Kedr\\Kedr\\Kedr\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "D:\\Kedr\\Kedr\\Kedr\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-14T08:52:21.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Kedr",
+              "DocumentMoniker": "D:\\Kedr\\Kedr\\Kedr\\Kedr.csproj",
+              "RelativeDocumentMoniker": "Kedr.csproj",
+              "ToolTip": "D:\\Kedr\\Kedr\\Kedr\\Kedr.csproj",
+              "RelativeToolTip": "Kedr.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-14T08:52:16.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InitializeMainMenu.cs",
+              "DocumentMoniker": "D:\\Kedr\\Kedr\\Kedr\\MainMenu\\InitializeMainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu\\InitializeMainMenu.cs",
+              "ToolTip": "D:\\Kedr\\Kedr\\Kedr\\MainMenu\\InitializeMainMenu.cs",
+              "RelativeToolTip": "MainMenu\\InitializeMainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:44:36.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "D:\\Kedr\\Kedr\\Kedr\\MainWindow.cs",
+              "RelativeDocumentMoniker": "MainWindow.cs",
+              "ToolTip": "D:\\Kedr\\Kedr\\Kedr\\MainWindow.cs",
+              "RelativeToolTip": "MainWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:15:36.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "D:\\Kedr\\Kedr\\Kedr\\MainWindow.cs",
               "RelativeDocumentMoniker": "MainWindow.cs",
@@ -31,18 +110,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T21:27:09.919Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.cs",
-              "DocumentMoniker": "D:\\Kedr\\Kedr\\Kedr\\MainWindow.cs",
-              "RelativeDocumentMoniker": "MainWindow.cs",
-              "ToolTip": "D:\\Kedr\\Kedr\\Kedr\\MainWindow.cs",
-              "RelativeToolTip": "MainWindow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T21:15:36.186Z"
             }
           ]
         }

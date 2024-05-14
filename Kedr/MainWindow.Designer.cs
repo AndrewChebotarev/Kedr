@@ -28,36 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            panel1 = new Panel();
-            panel2 = new Panel();
-            panel3 = new Panel();
+            menuTableLayoutPanel = new TableLayoutPanel();
             SuspendLayout();
             // 
-            // panel1
+            // menuTableLayoutPanel
             // 
-            panel1.AutoScroll = true;
-            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
-            panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(415, 908);
-            panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            panel2.Dock = DockStyle.Right;
-            panel2.Location = new Point(782, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(400, 908);
-            panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            panel3.Location = new Point(406, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(370, 603);
-            panel3.TabIndex = 2;
+            menuTableLayoutPanel.ColumnCount = 3;
+            menuTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            menuTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            menuTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            menuTableLayoutPanel.Dock = DockStyle.Fill;
+            menuTableLayoutPanel.Location = new Point(0, 0);
+            menuTableLayoutPanel.Name = "menuTableLayoutPanel";
+            menuTableLayoutPanel.RowCount = 1;
+            menuTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            menuTableLayoutPanel.Size = new Size(1182, 908);
+            menuTableLayoutPanel.TabIndex = 0;
             // 
             // MainWindow
             // 
@@ -66,19 +52,16 @@
             AutoScroll = true;
             BackColor = Color.Black;
             ClientSize = new Size(1182, 908);
-            Controls.Add(panel3);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(menuTableLayoutPanel);
             Name = "MainWindow";
             Text = "Кедр";
             WindowState = FormWindowState.Maximized;
+            FormBorderStyle = FormBorderStyle.None;
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
-        private Panel panel2;
-        private Panel panel3;
+        private TableLayoutPanel menuTableLayoutPanel;
     }
 }

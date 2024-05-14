@@ -5,6 +5,8 @@ namespace Kedr
         public MainWindow()
         {
             InitializeComponent();
+
+            InitializeMainMenu initializeMainMenu = new(menuTableLayoutPanel);
         }
     }
 }
