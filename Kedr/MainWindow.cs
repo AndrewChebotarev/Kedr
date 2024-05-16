@@ -5,8 +5,11 @@ namespace Kedr
         public MainWindow()
         {
             InitializeComponent();
+        }
 
-            InitializeMainMenu initializeMainMenu = new(menuTableLayoutPanel);
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            ExitButton exitButton = new();
         }
     }
 }

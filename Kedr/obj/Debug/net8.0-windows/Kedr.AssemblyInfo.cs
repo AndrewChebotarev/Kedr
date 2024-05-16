@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kedr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e60fa3a5a7abbac8858d83b8eb298013cb5ef53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1353a203f0fb393cc8484155f6079a52c9c70af")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kedr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kedr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
