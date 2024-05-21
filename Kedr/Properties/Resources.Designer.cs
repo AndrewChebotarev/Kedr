@@ -63,9 +63,19 @@ namespace Kedr.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExitButton {
+        internal static System.Drawing.Bitmap BlackImg {
             get {
-                object obj = ResourceManager.GetObject("ExitButton", resourceCulture);
+                object obj = ResourceManager.GetObject("BlackImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kandinsky_download_1716283402112 {
+            get {
+                object obj = ResourceManager.GetObject("kandinsky-download-1716283402112", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,16 +86,6 @@ namespace Kedr.Properties {
         internal static System.Drawing.Bitmap RocketImg {
             get {
                 object obj = ResourceManager.GetObject("RocketImg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap SolarSystemOrbitsImg {
-            get {
-                object obj = ResourceManager.GetObject("SolarSystemOrbitsImg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
