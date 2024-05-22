@@ -63,9 +63,9 @@ namespace Kedr.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BlackImg {
+        internal static System.Drawing.Bitmap BlackLibraryBookImg {
             get {
-                object obj = ResourceManager.GetObject("BlackImg", resourceCulture);
+                object obj = ResourceManager.GetObject("BlackLibraryBookImg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,10 +73,30 @@ namespace Kedr.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kandinsky_download_1716283402112 {
+        internal static System.Drawing.Bitmap BlackRocketImg {
             get {
-                object obj = ResourceManager.GetObject("kandinsky-download-1716283402112", resourceCulture);
+                object obj = ResourceManager.GetObject("BlackRocketImg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BlackSolarSystemImg {
+            get {
+                object obj = ResourceManager.GetObject("BlackSolarSystemImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon Icon {
+            get {
+                object obj = ResourceManager.GetObject("Icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -86,6 +106,16 @@ namespace Kedr.Properties {
         internal static System.Drawing.Bitmap RocketImg {
             get {
                 object obj = ResourceManager.GetObject("RocketImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SolarSystemImg {
+            get {
+                object obj = ResourceManager.GetObject("SolarSystemImg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

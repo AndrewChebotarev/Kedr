@@ -1,6 +1,6 @@
 ﻿namespace Kedr
 {
-    partial class MainWindow
+    partial class MenuForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,15 +30,11 @@
         {
             MenuTableLayoutPanel = new TableLayoutPanel();
             RocketPanel = new Panel();
-            button1 = new Button();
-            label1 = new Label();
             SolarSystemPanel = new Panel();
-            LibrarySpace = new Panel();
+            LibrarySpacePanel = new Panel();
             ExitButton = new Button();
             MenuTableLayoutPanel.SuspendLayout();
-            RocketPanel.SuspendLayout();
-            SolarSystemPanel.SuspendLayout();
-            LibrarySpace.SuspendLayout();
+            LibrarySpacePanel.SuspendLayout();
             SuspendLayout();
             // 
             // MenuTableLayoutPanel
@@ -49,7 +45,7 @@
             MenuTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             MenuTableLayoutPanel.Controls.Add(RocketPanel, 0, 0);
             MenuTableLayoutPanel.Controls.Add(SolarSystemPanel, 1, 0);
-            MenuTableLayoutPanel.Controls.Add(LibrarySpace, 2, 0);
+            MenuTableLayoutPanel.Controls.Add(LibrarySpacePanel, 2, 0);
             MenuTableLayoutPanel.Dock = DockStyle.Fill;
             MenuTableLayoutPanel.Location = new Point(0, 0);
             MenuTableLayoutPanel.Name = "MenuTableLayoutPanel";
@@ -63,43 +59,19 @@
             // 
             RocketPanel.BackgroundImage = Properties.Resources.RocketImg;
             RocketPanel.BackgroundImageLayout = ImageLayout.Stretch;
-            RocketPanel.Controls.Add(button1);
             RocketPanel.Dock = DockStyle.Fill;
             RocketPanel.Location = new Point(3, 3);
             RocketPanel.Name = "RocketPanel";
             RocketPanel.Size = new Size(388, 902);
             RocketPanel.TabIndex = 0;
+            RocketPanel.Click += RocketButton_Click;
             RocketPanel.MouseEnter += RocketPanel_MouseEnter;
             RocketPanel.MouseLeave += RocketPanel_MouseLeave;
             // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            button1.Location = new Point(125, 470);
-            button1.Name = "button1";
-            button1.Size = new Size(119, 41);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label1.ForeColor = SystemColors.ButtonFace;
-            label1.Location = new Point(-397, 358);
-            label1.Name = "label1";
-            label1.Size = new Size(729, 54);
-            label1.TabIndex = 0;
-            label1.Text = "Путишествие по солнченой системе";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // SolarSystemPanel
             // 
-            SolarSystemPanel.BackgroundImage = Properties.Resources.kandinsky_download_1716283402112;
+            SolarSystemPanel.BackgroundImage = Properties.Resources.SolarSystemImg;
             SolarSystemPanel.BackgroundImageLayout = ImageLayout.Zoom;
-            SolarSystemPanel.Controls.Add(label1);
             SolarSystemPanel.Dock = DockStyle.Fill;
             SolarSystemPanel.Location = new Point(397, 3);
             SolarSystemPanel.Name = "SolarSystemPanel";
@@ -108,19 +80,19 @@
             SolarSystemPanel.MouseEnter += SolarSystemPanel_MouseEnter;
             SolarSystemPanel.MouseLeave += SolarSystemPanel_MouseLeave;
             // 
-            // LibrarySpace
+            // LibrarySpacePanel
             // 
-            LibrarySpace.BackColor = Color.Black;
-            LibrarySpace.BackgroundImage = Properties.Resources.SpaceBookImg;
-            LibrarySpace.BackgroundImageLayout = ImageLayout.Stretch;
-            LibrarySpace.Controls.Add(ExitButton);
-            LibrarySpace.Dock = DockStyle.Fill;
-            LibrarySpace.Location = new Point(791, 3);
-            LibrarySpace.Name = "LibrarySpace";
-            LibrarySpace.Size = new Size(388, 902);
-            LibrarySpace.TabIndex = 2;
-            LibrarySpace.MouseEnter += LibrarySpacePanel_MouseEnter;
-            LibrarySpace.MouseLeave += LibrarySpacePanel_MouseLeave;
+            LibrarySpacePanel.BackColor = Color.Black;
+            LibrarySpacePanel.BackgroundImage = Properties.Resources.SpaceBookImg;
+            LibrarySpacePanel.BackgroundImageLayout = ImageLayout.Stretch;
+            LibrarySpacePanel.Controls.Add(ExitButton);
+            LibrarySpacePanel.Dock = DockStyle.Fill;
+            LibrarySpacePanel.Location = new Point(791, 3);
+            LibrarySpacePanel.Name = "LibrarySpacePanel";
+            LibrarySpacePanel.Size = new Size(388, 902);
+            LibrarySpacePanel.TabIndex = 2;
+            LibrarySpacePanel.MouseEnter += LibrarySpacePanel_MouseEnter;
+            LibrarySpacePanel.MouseLeave += LibrarySpacePanel_MouseLeave;
             // 
             // ExitButton
             // 
@@ -148,11 +120,9 @@
             Text = "Кедр";
             WindowState = FormWindowState.Maximized;
             MenuTableLayoutPanel.ResumeLayout(false);
-            RocketPanel.ResumeLayout(false);
-            SolarSystemPanel.ResumeLayout(false);
-            SolarSystemPanel.PerformLayout();
-            LibrarySpace.ResumeLayout(false);
+            LibrarySpacePanel.ResumeLayout(false);
             ResumeLayout(false);
+            Icon = Properties.Resources.Icon;
         }
 
         #endregion
@@ -160,9 +130,7 @@
         private TableLayoutPanel MenuTableLayoutPanel;
         private Panel RocketPanel;
         private Panel SolarSystemPanel;
-        private Panel LibrarySpace;
+        private Panel LibrarySpacePanel;
         private Button ExitButton;
-        private Button button1;
-        private Label label1;
     }
 }

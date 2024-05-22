@@ -14,5 +14,6 @@ D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\refint\Kedr.dll
 D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\Kedr.pdb
 D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\Kedr.genruntimeconfig.cache
 D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\ref\Kedr.dll
-D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\Kedr.MainWindow.resources
 D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\Kedr.Properties.Resources.resources
+D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\Kedr.RocketForm.resources
+D:\Kedr\Kedr\Kedr\obj\Debug\net8.0-windows\Kedr.MenuForm.resources

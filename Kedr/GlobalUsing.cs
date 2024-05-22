@@ -1,2 +1,3 @@
 ﻿global using Kedr;
-global using Kedr.MainMenu;
+global using Kedr.MainMenuWindow;
+global using Kedr.RocketWindow;
